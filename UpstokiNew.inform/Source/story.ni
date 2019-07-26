@@ -9,6 +9,7 @@ The story description is "You faintly remember that you were in danger, and you 
 The maximum score is 100.
 
 Include Basic Screen Effects by Emily Short. 
+Use scoring.
 
 Book 1 Preparation
 
@@ -45,12 +46,11 @@ Instead of buying something which is owned by the player:
 Instead of going somewhere when the player encloses something (called the stolen goods) which is not owned by the player: 
     if stolen goods is an itemSF listed in the Table of Stolen Things begin;
       choose row with itemSF of stolen goods in the Table of Stolen Things;
-      let x be tentativesSF entry;
-      change tentativesSF entry to 1 + x ;
+      increase tentativesSF entry by 1  ;
     otherwise; 
       choose a blank row in Table of Stolen Things;
       change itemSF entry to the stolen goods;
-      change tentativesSF entry to 1;
+      increase tentativesSF entry by 1;
     end if;
     if the owner of the stolen goods is not a person begin; 
         now the player owns the stolen goods; 
@@ -241,10 +241,10 @@ The description of the Great Gate is "You are in front of the Great Gate of the 
 The Great Gate is north of the  Bridge of Upstoki and south of the Entrance of the city of Upstoki. The Gate is a door. The gate is closed. The gate is locked.
 The golden key unlocks the Great Gate.
 
-After opening the Great Gate: award 20 points.
-After unlocking the Great Gate with the golden key: award 20 points.
+After opening the Great Gate: increase the score by 20 points.
+After unlocking the Great Gate with the golden key: increase the score by 20 points.
 Check opening the Great Gate:
-award 15 points.
+increase the score by 15 points.
 
 
 Section 3 The Guard
@@ -256,36 +256,36 @@ The guard carries a golden key.
 
 After asking guard about "enter" for the first time:  
 say "You need a pass to enter.";
-award 10 points.
+increase the score by 10 points.
 
 After doing it more than one time: 
 say "Bug off, I've told you to get a pass";
-award -1 points.
+increase the score by -1 points.
 
-After asking guard about "gate" :  say "You need a pass to enter.";   award 10 points.
+After asking guard about "gate" :  say "You need a pass to enter.";   increase the score by 10 points.
 
 After doing it more than one time: 
 say "Bug off, I've told you to get a pass";
-award -1 points.
+increase the score by -1 points.
 
-After asking guard about "pass" : say "You can ask Loriel for a pass."; award 10 points.
+After asking guard about "pass" : say "You can ask Loriel for a pass."; increase the score by 10 points.
 
 After doing it more than one time: 
 say "Bug off, I've told you to look for Loriel";
-award -1 points.
+increase the score by -1 points.
 
-After asking guard about "Loriel" : say "You can find Loriel in the Pass Tent, on the Outside Market"; award 10 points.
+After asking guard about "Loriel" : say "You can find Loriel in the Pass Tent, on the Outside Market"; increase the score by 10 points.
 
 After doing it more than one time: 
 say "Bug off, I've told you to loo for the Tent";
-award -1 points.
+increase the score by -1 points.
 
 Instead of  giving the pass to guard: 
 	change the gate to unlocked; 
 	say "The guard picks the pass and carefully examine it. Giving a satisfying nod, he unlocks and opens the gate with the key and bows for you to go. He also keeps the pass"; 
            change the gate to open;   
            move pass to guard;
-	award 30 points.
+	increase the score by 30 points.
 
 The guard owns the golden key.
 The price of the golden key is $100.
