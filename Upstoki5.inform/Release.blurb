@@ -1,0 +1,40 @@
+! Blurb file created by Inform build 6M62
+
+status "F:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Geraldo\Dropbox\Documents\Inform\Projects\Upstoki5.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Geraldo\Dropbox\Documents\Inform\Projects\Upstoki5.inform"
+release to "C:\Users\Geraldo\Dropbox\Documents\Inform\Projects\Upstoki5.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "The City of Upstoki.gblorb"
+storyfile "C:\Users\Geraldo\Dropbox\Documents\Inform\Projects\Upstoki5.inform\Build\output.ulx" include
+ifiction "C:\Users\Geraldo\Dropbox\Documents\Inform\Projects\Upstoki5.inform\Metadata.iFiction" include
+cover "F:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "F:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 3 "C:\Users\Geraldo\Dropbox\Documents\Inform\Projects\Upstoki5.materials\Figures\castle bridge.jpg"
+picture 4 "C:\Users\Geraldo\Dropbox\Documents\Inform\Projects\Upstoki5.materials\Figures\medieval-soldier.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "89BB67E2-CEA8-4E2C-8328-F3968C5FD460"
+placeholder [RELEASE] = "6"
+placeholder [YEAR] = "2019"
+placeholder [TITLE] = "The City of Upstoki"
+placeholder [AUTHOR] = "Geraldo Xexéo"
+placeholder [BLURB] = "You faintly remember that you were in danger, and you must do something. But what? Who are you? Your guts tell you that is better to solve this problem really fast."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

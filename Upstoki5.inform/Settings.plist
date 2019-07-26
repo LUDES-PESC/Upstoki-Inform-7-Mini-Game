@@ -7,6 +7,8 @@
 		<key>IFSettingNaturalInform</key>
 		<true/>
 	</dict>
+	<key>IFI7OutputSettings</key>
+	<dict/>
 	<key>IFInform6Extensions</key>
 	<dict/>
 	<key>IFLibrarySettings</key>
@@ -18,6 +20,10 @@
 	<dict>
 		<key>IFSettingInfix</key>
 		<false/>
+		<key>IFSettingTestingTabHelpShown</key>
+		<true/>
+		<key>IFSettingTestingTabShownCount</key>
+		<integer>2</integer>
 	</dict>
 	<key>IFOutputSettings</key>
 	<dict>
@@ -26,7 +32,7 @@
 		<key>IFSettingNobbleRng</key>
 		<false/>
 		<key>IFSettingZCodeVersion</key>
-		<integer>5</integer>
+		<integer>256</integer>
 	</dict>
 	<key>IFRandomSettings</key>
 	<dict/>

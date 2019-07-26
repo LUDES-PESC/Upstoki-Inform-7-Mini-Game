@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-1"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">Upstoki5</command>
+    <result xml:space="preserve">Welcome to the City of Upstoki surroundings. you feel that is better that  you get inside soon, but you really don't know why...&#x000A;&#x000A;The City of Upstoki&#x000A;When danger is coming by Geraldo Xex&#x00E9;o&#x000A;Release 6 / Serial number 190726 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;The Guard seems to be very worried. &#x000A;&#x000A;You can also see a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">RULES</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;The Guard seems to be very worried. &#x000A;&#x000A;You can also see a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-4"/>
+      <child nodeId="node-12"/>
+      <child nodeId="node-15"/>
+      <child nodeId="node-77"/>
+      <child nodeId="node-95"/>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;The Guard seems to be very worried. &#x000A;&#x000A;You can also see a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">x guard</command>
+    <result xml:space="preserve">You look at the guard more closely and he announces "I am Walstron, Lesser Guard of the Great Gate!"&#x000A;Guard Walstron is openly carrying a golden key and a spear.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">ask guard about key</command>
+    <result xml:space="preserve">This golden key opens the gate. It was trusted to me by the Great Keeper of The Great Gate!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">ask guard about gate</command>
+    <result xml:space="preserve">You need a pass to enter.&#x000A;&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">ask guard about pass</command>
+    <result xml:space="preserve">You can ask Loriel for a pass.&#x000A;&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">ask guard about loriel</command>
+    <result xml:space="preserve">You can find Loriel in the Pass Tent, on the Outside Market&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">ask guard about market</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">examine bridge</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">look guard</command>
+    <result xml:space="preserve">You see nothing special about guard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">look guard</command>
+    <result xml:space="preserve">You see nothing special about guard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">look at guard</command>
+    <result xml:space="preserve">You see nothing special about guard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">enter city</command>
+    <result xml:space="preserve">(first opening the Great Gate of the city of Upstoki)&#x000A;It seems to be locked.&#x000A;&#x000A;[Your score has just gone up by fifteen points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">open Gate</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;[Your score has just gone up by fifteen points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">unlock gate</command>
+    <result xml:space="preserve">What do you want to unlock the Great Gate of the city of Upstoki with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">ask guard about gate</command>
+    <result xml:space="preserve">You need a pass to enter.&#x000A;&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">ask guard about pass</command>
+    <result xml:space="preserve">You can ask Loriel for a pass.&#x000A;&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">ask guard about Loriel</command>
+    <result xml:space="preserve">You can find Loriel in the Pass Tent, on the Outside Market&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">map</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Outer Market&#x000A;A typical but very small market, with shabby tents.  At South there is beautiful and shiny tent with a sign:  Passes for the city&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Pass Tent&#x000A;The tent is large. There are some shelves and books. At the end of the tent is a desk with a old  man sitted behind it. There is a sign in the table reading "Pass: $12". There is a pile of passes on the table&#x000A;&#x000A;On Desk is Pass ($12).&#x000A;&#x000A;You can also see Loriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Pass Tent&#x000A;The tent is large. There are some shelves and books. At the end of the tent is a desk with a old  man sitted behind it. There is a sign in the table reading "Pass: $12". There is a pile of passes on the table&#x000A;&#x000A;On Desk is Pass ($12).&#x000A;&#x000A;You can also see Loriel here.&#x000A;&#x000A;&gt;</commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-28"/>
+      <child nodeId="node-41"/>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">buy pass</command>
+    <result xml:space="preserve">You hand Loriel a silver yobe. Loriel makes change with two copper yobes. "Here ya go," says Loriel, handing Pass to you. Your transaction is now complete, leaving you with $136.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-29"/>
+      <child nodeId="node-35"/>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with copper yobe &#x000A;&#x000A;you sneaky bastard &#x000A;&#x000A;Outer Market&#x000A;A typical but very small market, with shabby tents.  At South there is beautiful and shiny tent with a sign:  Passes for the city&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-30"/>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Pass&#x000A;  six copper yobes, a golden yobe and three silver yobes&#x000A;&#x000A;Altogether, you've got $136 on your person&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">showme Table of Stolen Things</command>
+    <result xml:space="preserve">There seems to be no such object anywhere in the model world.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to leave with copper yobe &#x000A;&#x000A;you sneaky bastard &#x000A;&#x000A;Pass Tent&#x000A;The tent is large. There are some shelves and books. At the end of the tent is a desk with a old  man sitted behind it. There is a sign in the table reading "Pass: $12". There is a pile of passes on the table&#x000A;&#x000A;You can see Loriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">Welcome to the City of Upstoki surroundings. you feel that is better that  you get inside soon, but you really don't know why...&#x000A;&#x000A;The City of Upstoki&#x000A;When danger is coming by Geraldo Xex&#x00E9;o&#x000A;Release 3 / Serial number 161011 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki and guard here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">show me cashbox</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">showme cashbox</command>
+    <result xml:space="preserve">cashbox - open container&#x000A;    100 golden coins&#x000A;    1000 silver coins&#x000A;    10000 copper coins&#x000A;location: out of play&#x000A;singular-named, improper-named; unlit, inedible, portable; opaque, open, unopenable, unlocked&#x000A;list grouping key: none&#x000A;printed name: "cashbox"&#x000A;printed plural name: "containers"&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: none&#x000A;price: $0&#x000A;carrying capacity: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">showme sum in the cashbox</command>
+    <result xml:space="preserve">There seems to be no such object anywhere in the model world.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  four silver yobes, a golden yobe and four copper yobes&#x000A;&#x000A;Altogether, you've got $144 on your person&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">showme cashbox</command>
+    <result xml:space="preserve">cashbox - open container&#x000A;    100 golden coins&#x000A;    1000 silver coins&#x000A;    10000 copper coins&#x000A;location: out of play&#x000A;singular-named, improper-named; unlit, inedible, portable; opaque, open, unopenable, unlocked&#x000A;list grouping key: none&#x000A;printed name: "cashbox"&#x000A;printed plural name: "containers"&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: none&#x000A;price: $0&#x000A;carrying capacity: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">what price in cashbox</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">get pass</command>
+    <result xml:space="preserve">"You can look at it, but you can't leave without paying&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with Pass &#x000A;&#x000A;you sneaky bastard &#x000A;&#x000A;"Hey there buddy, not so fast," says Loriel. "You going to buy Pass first, or am I gonna call the cops?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Pass Tent&#x000A;The tent is large. There are some shelves and books. At the end of the tent is a desk with a old  man sitted behind it. There is a sign in the table reading "Pass: $12". There is a pile of passes on the table&#x000A;&#x000A;You can see Loriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">buy pass</command>
+    <result xml:space="preserve">You hand Loriel a silver yobe. Loriel makes change with two copper yobes. Your transaction is now complete, leaving you with $136.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with copper yobe &#x000A;&#x000A;you sneaky bastard &#x000A;&#x000A;Outer Market&#x000A;A typical but very small market, with shabby tents.  At South there is beautiful and shiny tent with a sign:  Passes for the city&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outer Market&#x000A;A typical but very small market, with shabby tents.  At South there is beautiful and shiny tent with a sign:  Passes for the city&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Pass&#x000A;  six copper yobes, a golden yobe and three silver yobes&#x000A;&#x000A;Altogether, you've got $136 on your person&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with copper yobe &#x000A;&#x000A;you sneaky bastard &#x000A;&#x000A;Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki and guard here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">give pass to guard</command>
+    <result xml:space="preserve">The guard picks the pass and carefully examine it. Giving a satisfying nod, he unlocks and opens the gate with the key and bows for you to pass.&#x000A;&#x000A;[Your score has just gone up by thirty points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Entrance of the city of Upstoki&#x000A;You enter the magnificent City of Upstoki for the first time. It is beautiful, but troubled! You arrive at a large plaza. Guards run in all drections. The population, carrying sacs and cases, run north, following a large street that ends in a door in the mountain far away.&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">enter gate</command>
+    <result xml:space="preserve">Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki and guard here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">enter gate</command>
+    <result xml:space="preserve">Entrance of the city of Upstoki&#x000A; You arrive at a large plaza. Guards run in all drections. The population, carrying sacs and cases, run north, following a large street that ends in a door in the mountain far away.&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance of the city of Upstoki&#x000A; You arrive at a large plaza. Guards run in all drections. The population, carrying sacs and cases, run north, following a large street that ends in a door in the mountain far away.&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">examine gate</command>
+    <result xml:space="preserve">You are in front of the Great Gate of the city of Upstoki. It is beautiful and terrifying, 20  meters tall, made of iron, with a great circle in the middle with the symbol of the city: a winged crinsom dragon armed with a spear.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance of the city of Upstoki&#x000A; You arrive at a large plaza. Guards run in all drections. The population, carrying sacs and cases, run north, following a large street that ends in a door in the mountain far away.&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">Welcome to the City of Upstoki surroundings. you feel that is better that  you get inside soon, but you really don't know why...&#x000A;&#x000A;The City of Upstoki&#x000A;When danger is coming by Geraldo Xex&#x00E9;o&#x000A;Release 3 / Serial number 161011 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki and guard here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Outer Market&#x000A;A typical but very small market, with shabby tents.  At South there is beautiful and shiny tent with a sign:  Passes for the city&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Pass Tent&#x000A;The tent is large. There are some shelves and books. At the end of the tent is a desk with a old  man sitted behind it. There is a sign in the table reading "Pass: $12". There is a pile of passes on the table&#x000A;&#x000A;On Desk is Pass ($12).&#x000A;&#x000A;You can also see Loriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">buy pass</command>
+    <result xml:space="preserve">You hand Loriel a silver yobe. Loriel makes change with two copper yobes. "Here ya go," says Loriel, handing Pass to you. Your transaction is now complete, leaving you with $136.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with copper yobe &#x000A;&#x000A;you sneaky bastard &#x000A;&#x000A;Outer Market&#x000A;A typical but very small market, with shabby tents.  At South there is beautiful and shiny tent with a sign:  Passes for the city&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with copper yobe &#x000A;&#x000A;you sneaky bastard &#x000A;&#x000A;Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki and guard here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">give pass to guard</command>
+    <result xml:space="preserve">The guard picks the pass and carefully examine it. Giving a satisfying nod, he unlocks and opens the gate with the key and bows for you to pass.&#x000A;&#x000A;[Your score has just gone up by thirty points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">After you enter the city, you see Loriel and some guards entering the city after ou. A platoon runs to the gate, closes and locks it. They also block it, and you noticed that it will be very difficult to leave the city for the following days.&#x000A;&#x000A;Entrance of the city of Upstoki&#x000A;You enter the magnificent City of Upstoki for the first time. It is beautiful, but troubled! You arrive at a large plaza. Guards run in all drections. The population, carrying sacs and cases, run north, following a large street that ends in a door in the mountain far away.&#x000A;&#x000A;You can see Loriel and a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-65"/>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">exemine City</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">examine entrance</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">examine Entrance</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance of the city of Upstoki&#x000A;You can see a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance of the city of Upstoki&#x000A; You arrive at a large plaza. Guards run in all drections. The population, carrying sacs and cases, run north, following a large street that ends in a door in the mountain far away.&#x000A;&#x000A;You can see Loriel and a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance of the city of Upstoki&#x000A;You arrive at a large plaza. Guards run in all drections. The population, carrying sacs and cases, run north, following a large street that ends in a door in the mountain far away.&#x000A;&#x000A;You can see Loriel and a Great Gate of the city of Upstoki here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the Great Gate of the city of Upstoki)&#x000A;It seems to be locked.&#x000A;&#x000A;[Your score has just gone up by fifteen points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Outer Market&#x000A;A typical but very small market, with shabby tents.  At South there is beautiful and shiny tent with a sign:  Passes for the city&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Pass Tent&#x000A;The tent is large. There are some shelves and books. At the end of the tent is a desk with a old  man sitted behind it. There is a sign in the table reading "Pass: $12". There is a pile of passes on the table&#x000A;&#x000A;On Desk is Pass ($12).&#x000A;&#x000A;You can also see Loriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">Pass: "You can look at it, but you can't leave without paying&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Pass&#x000A;  a golden yobe, four silver yobes and four copper yobes&#x000A;&#x000A;Altogether, you've got $144 on your person&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You are carrying:&#x000A;  Pass&#x000A;  a golden yobe, four silver yobes and four copper yobes&#x000A;&#x000A;Altogether, you've got $144 on your person&#x000A;&gt;</commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;[Your score has just gone up by fifteen points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">unlock game</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">unlock gate</command>
+    <result xml:space="preserve">What do you want to unlock the Great Gate of the city of Upstoki with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a golden yobe, four silver yobes and four copper yobes&#x000A;&#x000A;Altogether, you've got $144 on your person&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">ask guard about gate</command>
+    <result xml:space="preserve">You need a pass to enter.&#x000A;&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">ask guard about pass</command>
+    <result xml:space="preserve">You can ask Loriel for a pass.&#x000A;&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">ask guard about loriel</command>
+    <result xml:space="preserve">You can find Loriel in the Pass Tent, on the Outside Market&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Outer Market&#x000A;A typical but very small market, with shabby tents.  At South there is beautiful and shiny tent with a sign:  Passes for the city&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a golden yobe, four silver yobes and four copper yobes&#x000A;&#x000A;Altogether, you've got $144 on your person&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Pass Tent&#x000A;The tent is large. There are some shelves and books. At the end of the tent is a desk with a old  man sitted behind it. There is a sign in the table reading "Pass: $12". There is a pile of passes on the table&#x000A;&#x000A;On Desk is Pass ($12).&#x000A;&#x000A;You can also see Loriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">get pass</command>
+    <result xml:space="preserve">"You can look at it, but you can't leave without paying&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with Pass &#x000A;&#x000A;you sneaky bastard &#x000A;&#x000A;"Hey there buddy, not so fast," says Loriel. "You going to buy Pass first, or am I gonna call the cops?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Pass Tent&#x000A;The tent is large. There are some shelves and books. At the end of the tent is a desk with a old  man sitted behind it. There is a sign in the table reading "Pass: $12". There is a pile of passes on the table&#x000A;&#x000A;You can see Loriel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with Pass &#x000A;&#x000A;"Hey there buddy, not so fast," says Loriel. "You going to buy Pass first, or am I gonna call the cops?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to leave with Pass &#x000A;&#x000A;"Hey there buddy, not so fast," says Loriel. "You going to buy Pass first, or am I gonna call the cops?"&#x000A;You bastard! Guards! Guards!</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The guards arrive, they are many, and they are strong... You try to escape, but fail... You are beaten and arrested. They don't like thieves in the town...</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">It seems that they have a very harsh law in the city: death for any foreigner that commits a crime!&#x000A;You are taken to the executioner, who is an old friend of you, but kills you anyway&#x000A;&#x000A;&#x000A;    *** You are dead ***&#x000A;&#x000A;&#x000A;In that game you scored 45 out of a possible 100, in 14 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Welcome to the City of Upstoki surroundings. you feel that is better that  you get inside soon, but you really don't know why...&#x000A;&#x000A;The City of Upstoki&#x000A;When danger is coming by Geraldo Xex&#x00E9;o&#x000A;Release 3 / Serial number 161011 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Bridge of Upstoki&#x000A;You are in the Bridge of Upstoki, in front of the Great Gate of the city of Upstoki, in front of you is the enourmous city of Upstoki, a legend of mistery, terror and wonders. Its walls are 30 meters high, and its towers are even higher. In the end of the Bridge there is the only know entrance to the city. South of it there is the Outside Market&#x000A;&#x000A;You can see a Great Gate of the city of Upstoki and guard here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">x Guard</command>
+    <result xml:space="preserve">You look at the guard more closely and he announces "I am Walstron, Lesser Guard of the Great Gate!"&#x000A;Guard Walstron is openly carrying a golden key and a spear.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">ask guard about gate</command>
+    <result xml:space="preserve">You need a pass to enter.&#x000A;&#x000A;[Your score has just gone up by ten points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">ask guard about key</command>
+    <result xml:space="preserve">This golden key opens the gate. It was trusted to me by the Great Keeper of The Great Gate!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">ask guard about key</command>
+    <result xml:space="preserve">This key is trusted to me, I would not sell it even for 9 silver yobes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">buy key</command>
+    <result xml:space="preserve">You hand Guard Walstron a golden yobe. "Here ya go," says Guard Walstron, handing the golden key to you. Your transaction is now complete, leaving you with $44.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">x guard</command>
+    <result xml:space="preserve">You look at the guard more closely and he announces "I am Walstron, Lesser Guard of the Great Gate!"&#x000A;Guard Walstron is openly carrying a golden key and a spear.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
